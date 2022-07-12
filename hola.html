@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    
+</body>
+</html>
+
+<script>
+    //crear una funcion que reciba un json y lo imprima en una tabla de agenda semanal sin usar una tabla html
+    function agenda(json){
+        var tabla = document.createElement("table");
+        var tr = document.createElement("tr");
+        var th = document.createElement("th");
+        th.innerHTML = "Nombre";
+        tr.appendChild(th);
+        var th = document.createElement("th");
+        th.innerHTML = "Telefono";
+        tr.appendChild(th);
+        var th = document.createElement("th");
+        th.innerHTML = "Correo";
+        tr.appendChild(th);
+        tabla.appendChild(tr);
+        for(var i = 0; i < json.length; i++){
+            var tr = document.createElement("tr");
+            var td = document.createElement("td");
+            td.innerHTML = json[i].nombre;
+            tr.appendChild(td);
+            var td = document.createElement("td");
+            td.innerHTML = json[i].telefono;
+            tr.appendChild(td);
+            var td = document.createElement("td");
+            td.innerHTML = json[i].correo;
+            tr.appendChild(td);
+            tabla.appendChild(tr);
+        }
+        document.body.appendChild(tabla);
+    }
+</script>

@@ -1,0 +1,10 @@
+Dean Martin,7
+Oscar Peterson,3
+Les Paul,3
+Lata Mangeshkar,3
+Ella Fitzgerald,3
+Chet Baker,2
+Doris Day,2
+Harry Belafonte,2
+Paul Bley,1
+Tony Bennett,1

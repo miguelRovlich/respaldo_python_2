@@ -1,0 +1,10 @@
+Dean Martin,11
+Oscar Peterson,5
+Doris Day,3
+Anita O'day,3
+Gene Ammons,2
+Louis Prima,2
+Chet Baker,1
+Odetta,1
+George Shearing,1
+Sonny Rollins,1

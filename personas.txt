@@ -1,0 +1,3 @@
+1,Juan,Perez,Perez,12345678-9,10/12/12,113456789,asd@asd.com,M
+2,Juan,Perez,Perez,12325678-0,12/11/12,155456789,asd2@asd2.com,M
+3,Juanita,Perez,Gonzalez,12345672-9,12/12/11,123456289,micorreo@gmail.com,F
